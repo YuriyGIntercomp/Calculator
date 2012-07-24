@@ -15,6 +15,7 @@
 		5797E4C615BEFB2500C0406A /* CalculatorAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5797E4C515BEFB2500C0406A /* CalculatorAppDelegate.m */; };
 		5797E4C915BEFB2500C0406A /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5797E4C715BEFB2500C0406A /* MainStoryboard.storyboard */; };
 		5797E4CC15BEFB2500C0406A /* CalculatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5797E4CB15BEFB2500C0406A /* CalculatorViewController.m */; };
+		5797E4D415BF20FF00C0406A /* CalculatorBrain.m in Sources */ = {isa = PBXBuildFile; fileRef = 5797E4D315BF20FF00C0406A /* CalculatorBrain.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,8 @@
 		5797E4C815BEFB2500C0406A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		5797E4CA15BEFB2500C0406A /* CalculatorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CalculatorViewController.h; sourceTree = "<group>"; };
 		5797E4CB15BEFB2500C0406A /* CalculatorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalculatorViewController.m; sourceTree = "<group>"; };
+		5797E4D215BF20FF00C0406A /* CalculatorBrain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CalculatorBrain.h; sourceTree = "<group>"; };
+		5797E4D315BF20FF00C0406A /* CalculatorBrain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CalculatorBrain.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 				5797E4C415BEFB2500C0406A /* CalculatorAppDelegate.h */,
 				5797E4C515BEFB2500C0406A /* CalculatorAppDelegate.m */,
 				5797E4C715BEFB2500C0406A /* MainStoryboard.storyboard */,
+				5797E4D215BF20FF00C0406A /* CalculatorBrain.h */,
+				5797E4D315BF20FF00C0406A /* CalculatorBrain.m */,
 				5797E4CA15BEFB2500C0406A /* CalculatorViewController.h */,
 				5797E4CB15BEFB2500C0406A /* CalculatorViewController.m */,
 				5797E4BC15BEFB2500C0406A /* Supporting Files */,
@@ -164,6 +169,7 @@
 				5797E4C215BEFB2500C0406A /* main.m in Sources */,
 				5797E4C615BEFB2500C0406A /* CalculatorAppDelegate.m in Sources */,
 				5797E4CC15BEFB2500C0406A /* CalculatorViewController.m in Sources */,
+				5797E4D415BF20FF00C0406A /* CalculatorBrain.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
